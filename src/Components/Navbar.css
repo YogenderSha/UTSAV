@@ -1,0 +1,32 @@
+.hover-underline-animation {
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+}
+
+.hover-underline-animation:after {
+    background-color:white;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+    transition: -webkit-transform .25s ease-out;
+    transition: transform .25s ease-out;
+    transition: transform .25s ease-out,-webkit-transform .25s ease-out;
+    width: 100%;
+}
+
+.hover-underline-animation:hover:after {
+    background-color: white;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+}
