@@ -2,6 +2,7 @@
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Scroll from './Components/Scroll';
+import About from './Components/About';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Navbar></Navbar>
     <Hero></Hero>
     <Scroll></Scroll>
+    <About></About>
     </section>
 
 
