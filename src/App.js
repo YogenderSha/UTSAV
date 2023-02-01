@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Scroll from './Components/Scroll';
 import About from './Components/About';
+import Bottom from './Components/Bottom';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Hero></Hero>
     <Scroll></Scroll>
     <About></About>
+    <Bottom></Bottom>
     </section>
 
 
