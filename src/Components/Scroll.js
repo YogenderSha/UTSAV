@@ -23,7 +23,7 @@ export default function Scroll() {
             <span className='text-white font-sans py-1 font-semibold text-4xl'>Heading</span>
           </div>
 
-          <main className='flex flex-col md:flex-row w-[95%] mx-auto h-full '>
+          <main className='flex flex-col md:flex-row w-[95%] mx-auto h-full'>
             <div className='flex flex-col md:mx-2  h-[50vh] border-2 border-gray-600  w-full my-2 rounded-md bg-gradient-to-b from-gray-900 to-gray-800'>
               <div>
                 <span><img className='rounded-sm w-fit sm:w-5/6' src={logo} alt="" /></span>
