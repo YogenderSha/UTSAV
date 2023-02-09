@@ -13,7 +13,7 @@ export default function About() {
         </div>
         <main className='flex flex-col w-full md:mx-10'>
         <div className='mx-auto hidden md:block my-2'><span className='text-white font-semibold font-sans md:text-4xl lg:text-6xl'>About Us</span></div>
-        <div className='mx-auto w-[95%]'><p className='text-center text-white font-sans font-medium  text-lg md:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus accusantium veniam exercitationem tempore fugiat beatae magnam, veritatis debitis ratione dolorum.</p>
+        <div className='mx-auto w-[95%]'><p className='text-center text-white font-sans font-medium  text-lg md:text-xl'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Off Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, maiores. fugiat beatae magnam, veritatis debitis ratione dolorum.</p>
         </div>
         </main>
 
