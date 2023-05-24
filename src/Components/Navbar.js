@@ -6,7 +6,7 @@ export default function Navbar() {
     
 return (
     <>
-        <header className="w-full flex sticky top-0">
+        <header className="w-full flex fixed top-0">
             <nav className="flex flex-col md:flex-row justify-center align-middle w-full h-full">
                 <div className="flex flex-row align-middle justify-center w-[95%] mx-auto my-2 rounded-sm bg-gradient-to-b from-gray-800 to-gray-700 ">
                     <div className="mx-2 my-2 w-full md:w-1/2 lg:w-3/4 "><span className=""><a className="text-white font-serif font-bold text-2xl lg:mx-6 " href="/home">UTSAV</a></span></div>
